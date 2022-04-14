@@ -1,6 +1,9 @@
 # weather_apps
 
-A new Flutter project.
+Starting Slicing an UI from Figma
+https://www.figma.com/community/file/885501292477669105/Weather-Forecast-App
+
+
 
 ## Getting Started
 
