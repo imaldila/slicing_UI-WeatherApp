@@ -7,6 +7,7 @@ const double kPadding = 16;
 
 const kWhiteColor = Colors.white;
 const kBlueSoftColor = Color(0xFF444E72);
+const kBlueSoftLightColor = Color(0xFF838BAA);
 
 final kTextStyleMap100 = GoogleFonts.overpass(
   fontSize: 100,
@@ -30,6 +31,33 @@ final kTextStyleMap18 = GoogleFonts.overpass(
 final kTextStyle18 = GoogleFonts.overpass(
   fontSize: 18,
   color: kBlueSoftColor,
+);
+
+final kTextStyle18Light = GoogleFonts.overpass(
+  fontSize: 18,
+  color: kBlueSoftLightColor,
+);
+
+final kTextStyle12SoftLight = GoogleFonts.overpass(
+  fontSize: 12,
+  color: kBlueSoftLightColor,
+);
+
+final kTextStyle14SoftLight = GoogleFonts.overpass(
+  fontSize: 14,
+  color: kBlueSoftLightColor,
+);
+
+final kTextStyle14SoftLightBold = GoogleFonts.overpass(
+  fontSize: 14,
+  color: kBlueSoftLightColor,
+  fontWeight: FontWeight.bold,
+);
+
+final kTextStyle14Bold = GoogleFonts.overpass(
+  fontSize: 14,
+  color: Colors.black,
+  fontWeight: FontWeight.bold,
 );
 
 final kBoxDecoration = BoxDecoration(
