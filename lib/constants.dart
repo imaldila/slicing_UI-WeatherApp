@@ -17,6 +17,11 @@ final kTextStyleMap24 = GoogleFonts.overpass(
   color: kWhiteColor,
 );
 
+final kTextStyleMap24Blue = GoogleFonts.overpass(
+  fontSize: 24,
+  color: kBlueSoftColor,
+);
+
 final kTextStyleMap18 = GoogleFonts.overpass(
   fontSize: 18,
   color: kWhiteColor,

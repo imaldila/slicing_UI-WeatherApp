@@ -29,18 +29,16 @@ class CardWeather extends StatelessWidget {
             style: kTextStyleMap18,
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Image.asset('assets/icons/ic-windy.png'),
-              const SizedBox(
-                width: kPadding,
-              ),
               Text(
                 'Wind',
                 style: kTextStyleMap18,
               ),
-              const SizedBox(
-                width: kPadding,
+              Text(
+                '|',
+                style: kTextStyleMap18,
               ),
               Text(
                 '10 km/h',
@@ -49,19 +47,26 @@ class CardWeather extends StatelessWidget {
             ],
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Image.asset('assets/icons/ic-hum.png'),
-              const SizedBox(
-                width: kPadding,
-              ),
+              // const SizedBox(
+              //   width: kPadding,
+              // ),
               Text(
                 'Hum',
                 style: kTextStyleMap18,
               ),
-              const SizedBox(
-                width: kPadding,
+              // const SizedBox(
+              //   width: kPadding,
+              // ),
+              Text(
+                '|     ',
+                style: kTextStyleMap18,
               ),
+              // const SizedBox(
+              //   width: kPadding,
+              // ),
               Text(
                 '54 %',
                 style: kTextStyleMap18,

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 
-class ReportButton extends StatelessWidget {
-  const ReportButton({
+class NotificationButton extends StatelessWidget {
+  const NotificationButton({
     Key? key,
     required this.onPressed,
   }) : super(key: key);
